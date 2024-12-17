@@ -4,8 +4,8 @@ from typing import Dict, Optional
 # Name of the stream to send notifications to, default is "commits"
 STREAM_NAME = "commits"
 # Change these values to configure authentication for the plugin
-ZULIP_USER = "git1-bot@zulipdev.com"
-ZULIP_API_KEY = "4yIqZdD5urHoc9kcZQEEgPG1zkYahuP5" 
+ZULIP_USER = "git_int-bot@chat.zulip.org"
+ZULIP_API_KEY = "lo96VwuJiuXSSkFsrFGDQgb72aB0LE8Y" 
 
 
 # commit_notice_destination() lets you customize where commit notices
@@ -45,4 +45,4 @@ def format_commit_message(author: str, subject: str, commit_id: str) -> str:
 ZULIP_API_PATH: Optional[str] = None
 
 # Set this to your Zulip server's API URI
-ZULIP_SITE = "https://0c1b-157-39-66-129.ngrok-free.app/api"
+ZULIP_SITE = "https://chat.zulip.org/api"
