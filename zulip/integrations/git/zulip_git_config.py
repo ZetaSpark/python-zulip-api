@@ -5,8 +5,8 @@ from typing import Dict, Optional
 STREAM_NAME = "commits"
 
 # Change these values to configure authentication for the plugin
-ZULIP_USER = "git-bot@example.com"
-ZULIP_API_KEY = "0123456789abcdef0123456789abcdef"
+ZULIP_USER = "Git-bot@zulipdev.com"
+ZULIP_API_KEY = "ijJJTVcCzAIUI7aL4QPtpDtWrCJXWwWF"
 
 
 # commit_notice_destination() lets you customize where commit notices
@@ -46,4 +46,4 @@ def format_commit_message(author: str, subject: str, commit_id: str) -> str:
 ZULIP_API_PATH: Optional[str] = None
 
 # Set this to your Zulip server's API URI
-ZULIP_SITE = "https://zulip.example.com"
+ZULIP_SITE = "http://localhost:9991"
