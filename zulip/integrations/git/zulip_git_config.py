@@ -2,7 +2,7 @@
 from typing import Dict, Optional
 
 # Name of the stream to send notifications to, default is "commits"
-STREAM_NAME = "git"
+STREAM_NAME = "commits"
 # Change these values to configure authentication for the plugin
 ZULIP_USER = "git1-bot@zulipdev.com"
 ZULIP_API_KEY = "4yIqZdD5urHoc9kcZQEEgPG1zkYahuP5" 

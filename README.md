@@ -4,8 +4,7 @@
 https://github.com/zulip/python-zulip-api/actions?query=branch%3Amain+workflow%3Abuild)
 [![Coverage status](https://img.shields.io/codecov/c/github/zulip/python-zulip-api)](
 https://codecov.io/gh/zulip/python-zulip-api)
-
-This repository contains the source code for Zulip's PyPI packages:
+ repository contains the source code for Zulip's PyPI packages:
 
 * `zulip`: [PyPI package](https://pypi.python.org/pypi/zulip/)
   for Zulip's API bindings.
