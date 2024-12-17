@@ -2,7 +2,7 @@
 from typing import Dict, Optional
 
 # Name of the stream to send notifications to, default is "commits"
-STREAM_NAME = "git"
+STREAM_NAME = "commits"
 # Change these values to configure authentication for the plugin
 ZULIP_USER = "Capistrano-bot@zulipdev.com"
 ZULIP_API_KEY = "8JWEilVNCLAAhIW4fdqdC1eQM3prU1Wm" 
@@ -45,4 +45,4 @@ def format_commit_message(author: str, subject: str, commit_id: str) -> str:
 ZULIP_API_PATH: Optional[str] = None
 
 # Set this to your Zulip server's API URI
-ZULIP_SITE = "http://localhost:9991"
+ZULIP_SITE = "http://localhost:9991/api"
