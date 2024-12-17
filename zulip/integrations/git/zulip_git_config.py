@@ -5,8 +5,8 @@ from typing import Dict, Optional
 STREAM_NAME = "commits"
 
 # Change these values to configure authentication for the plugin
-ZULIP_USER = "Git-bot@zulipdev.com"
-ZULIP_API_KEY = "ijJJTVcCzAIUI7aL4QPtpDtWrCJXWwWF"
+ZULIP_USER = "Capistrano-bot@zulipdev.com"
+ZULIP_API_KEY = "8JWEilVNCLAAhIW4fdqdC1eQM3prU1Wm"
 
 
 # commit_notice_destination() lets you customize where commit notices
