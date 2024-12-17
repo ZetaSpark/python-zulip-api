@@ -3,10 +3,9 @@ from typing import Dict, Optional
 
 # Name of the stream to send notifications to, default is "commits"
 STREAM_NAME = "commits"
-
 # Change these values to configure authentication for the plugin
 ZULIP_USER = "Capistrano-bot@zulipdev.com"
-ZULIP_API_KEY = "8JWEilVNCLAAhIW4fdqdC1eQM3prU1Wm"
+ZULIP_API_KEY = "8JWEilVNCLAAhIW4fdqdC1eQM3prU1Wm" 
 
 
 # commit_notice_destination() lets you customize where commit notices
