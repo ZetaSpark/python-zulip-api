@@ -45,4 +45,4 @@ def format_commit_message(author: str, subject: str, commit_id: str) -> str:
 ZULIP_API_PATH: Optional[str] = None
 
 # Set this to your Zulip server's API URI
-ZULIP_SITE = "http://localhost:9991/api"
+ZULIP_SITE = "https://0c1b-157-39-66-129.ngrok-free.app/api"
